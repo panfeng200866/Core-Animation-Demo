@@ -14,6 +14,11 @@
 		79CA32B21B5016DB00512179 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79CA32B11B5016DB00512179 /* Images.xcassets */; };
 		79CA32B51B5016DB00512179 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 79CA32B31B5016DB00512179 /* LaunchScreen.xib */; };
 		79CA32C11B5016DB00512179 /* Core_Animation_DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 79CA32C01B5016DB00512179 /* Core_Animation_DemoTests.m */; };
+		79CA32CF1B50178500512179 /* ImplicitController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79CA32CE1B50178500512179 /* ImplicitController.m */; };
+		79CA32D21B5017A800512179 /* BasicAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79CA32D11B5017A800512179 /* BasicAnimationController.m */; };
+		79CA32D51B5017C900512179 /* TickViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79CA32D41B5017C900512179 /* TickViewController.m */; };
+		79CA32D81B5017E300512179 /* KeyFrameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79CA32D71B5017E300512179 /* KeyFrameViewController.m */; };
+		79CA32DB1B5017FB00512179 /* TransitionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79CA32DA1B5017FB00512179 /* TransitionController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +45,16 @@
 		79CA32BA1B5016DB00512179 /* Core Animation DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Core Animation DemoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		79CA32BF1B5016DB00512179 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		79CA32C01B5016DB00512179 /* Core_Animation_DemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Core_Animation_DemoTests.m; sourceTree = "<group>"; };
+		79CA32CD1B50178500512179 /* ImplicitController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImplicitController.h; sourceTree = "<group>"; };
+		79CA32CE1B50178500512179 /* ImplicitController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImplicitController.m; sourceTree = "<group>"; };
+		79CA32D01B5017A800512179 /* BasicAnimationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasicAnimationController.h; sourceTree = "<group>"; };
+		79CA32D11B5017A800512179 /* BasicAnimationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasicAnimationController.m; sourceTree = "<group>"; };
+		79CA32D31B5017C900512179 /* TickViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TickViewController.h; sourceTree = "<group>"; };
+		79CA32D41B5017C900512179 /* TickViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TickViewController.m; sourceTree = "<group>"; };
+		79CA32D61B5017E300512179 /* KeyFrameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyFrameViewController.h; sourceTree = "<group>"; };
+		79CA32D71B5017E300512179 /* KeyFrameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyFrameViewController.m; sourceTree = "<group>"; };
+		79CA32D91B5017FB00512179 /* TransitionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransitionController.h; sourceTree = "<group>"; };
+		79CA32DA1B5017FB00512179 /* TransitionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransitionController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +101,16 @@
 				79CA32AB1B5016DB00512179 /* ViewController.h */,
 				79CA32AC1B5016DB00512179 /* ViewController.m */,
 				79CA32AE1B5016DB00512179 /* Main.storyboard */,
+				79CA32CD1B50178500512179 /* ImplicitController.h */,
+				79CA32CE1B50178500512179 /* ImplicitController.m */,
+				79CA32D01B5017A800512179 /* BasicAnimationController.h */,
+				79CA32D11B5017A800512179 /* BasicAnimationController.m */,
+				79CA32D31B5017C900512179 /* TickViewController.h */,
+				79CA32D41B5017C900512179 /* TickViewController.m */,
+				79CA32D61B5017E300512179 /* KeyFrameViewController.h */,
+				79CA32D71B5017E300512179 /* KeyFrameViewController.m */,
+				79CA32D91B5017FB00512179 /* TransitionController.h */,
+				79CA32DA1B5017FB00512179 /* TransitionController.m */,
 				79CA32B11B5016DB00512179 /* Images.xcassets */,
 				79CA32B31B5016DB00512179 /* LaunchScreen.xib */,
 				79CA32A41B5016DB00512179 /* Supporting Files */,
@@ -219,9 +244,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79CA32DB1B5017FB00512179 /* TransitionController.m in Sources */,
 				79CA32AD1B5016DB00512179 /* ViewController.m in Sources */,
 				79CA32AA1B5016DB00512179 /* AppDelegate.m in Sources */,
+				79CA32CF1B50178500512179 /* ImplicitController.m in Sources */,
+				79CA32D51B5017C900512179 /* TickViewController.m in Sources */,
+				79CA32D21B5017A800512179 /* BasicAnimationController.m in Sources */,
 				79CA32A71B5016DB00512179 /* main.m in Sources */,
+				79CA32D81B5017E300512179 /* KeyFrameViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
