@@ -10,4 +10,6 @@
 
 @interface ImplicitController : UIViewController
 
+@property (nonatomic, copy) NSString *titleName;
+
 @end
